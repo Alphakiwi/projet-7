@@ -2,9 +2,7 @@ package com.alphakiwi.projet_7;
 
 import android.support.annotation.Nullable;
 
-/**
- * Created by Philippe on 30/01/2018.
- */
+
 
 public class User {
 

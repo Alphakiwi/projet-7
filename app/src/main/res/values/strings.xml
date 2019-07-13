@@ -44,8 +44,9 @@
     <!-- FACEBOOK PURPOSE -->
     <string name="facebook_application_id" translatable="false">420763051691337</string>
     <string name="facebook_login_protocol_scheme" translatable="false" tools:ignore="UnusedResources">fb420763051691337</string>
+
     <string name="title_activity_hungry">HungryActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_listView">List View</string>
+    <string name="title_workmates">Workmates</string>
+    <string name="title_mapView">Map View</string>
 </resources>
