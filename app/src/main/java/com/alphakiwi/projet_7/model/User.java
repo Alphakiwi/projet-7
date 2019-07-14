@@ -1,4 +1,4 @@
-package com.alphakiwi.projet_7;
+package com.alphakiwi.projet_7.model;
 
 import android.support.annotation.Nullable;
 

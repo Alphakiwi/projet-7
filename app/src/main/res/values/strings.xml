@@ -45,7 +45,7 @@
     <string name="facebook_application_id" translatable="false">420763051691337</string>
     <string name="facebook_login_protocol_scheme" translatable="false" tools:ignore="UnusedResources">fb420763051691337</string>
 
-    <string name="title_activity_hungry">HungryActivity</string>
+    <string name="title_activity_hungry">I\'m Hungry!</string>
     <string name="title_listView">List View</string>
     <string name="title_workmates">Workmates</string>
     <string name="title_mapView">Map View</string>

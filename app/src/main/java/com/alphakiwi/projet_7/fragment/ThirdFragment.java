@@ -1,4 +1,4 @@
-package com.example.user.navigationdrawer;
+package com.alphakiwi.projet_7.fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,10 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.alphakiwi.projet_7.R;
+
 /**
  * Created by user on 12/31/15.
  */
-public class ThirdFragment extends Fragment{
+public class ThirdFragment extends Fragment {
 
     View myView;
 

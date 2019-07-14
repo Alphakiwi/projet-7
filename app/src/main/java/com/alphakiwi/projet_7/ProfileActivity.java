@@ -6,12 +6,14 @@ import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.CheckBox;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.alphakiwi.projet_7.api.UserHelper;
 import com.alphakiwi.projet_7.base.BaseActivity;
+import com.alphakiwi.projet_7.model.User;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.firebase.ui.auth.AuthUI;
@@ -37,6 +39,7 @@ public class ProfileActivity extends BaseActivity {
     @BindView(R.id.profile_activity_progress_bar)
     ProgressBar progressBar;
 
+
     //FOR DATA
     private static final int SIGN_OUT_TASK = 10;
     private static final int DELETE_USER_TASK = 20;
@@ -45,7 +48,6 @@ public class ProfileActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.configureToolbar();
         this.updateUIWhenCreating();
     }
 
@@ -61,6 +63,9 @@ public class ProfileActivity extends BaseActivity {
 
     @OnClick(R.id.profile_activity_button_sign_out)
     public void onClickSignOutButton() { this.signOutUserFromFirebase(); }
+
+    @OnClick(R.id.profile_back)
+    public void onClickBackButton() { this.finish(); }
 
     @OnClick(R.id.profile_activity_button_delete)
     public void onClickDeleteButton() {
@@ -165,4 +170,8 @@ public class ProfileActivity extends BaseActivity {
             }
         };
     }
+
+
+
+
 }

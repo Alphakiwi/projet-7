@@ -1,5 +1,6 @@
-package com.alphakiwi.projet_7;
+package com.alphakiwi.projet_7.api;
 
+import com.alphakiwi.projet_7.model.User;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
